@@ -1,0 +1,101 @@
+nav {
+  background: #111;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #050152;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #000000;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background: #050152;
+  color: #ffffff;
+  padding: 2rem;
+}
+h1 {
+  margin: 0;
+}
+section {
+  padding: 2rem;
+}
+.skill {
+  margin: 1rem 0;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bar {
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 20px;
+  background: #050152;
+  width: 0;
+  text-align: right;
+  padding-right: 5px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.social a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.projeto {
+  background: #111;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: left;
+}
+.projeto h3 {
+  margin-top: 0;
+  color: #050152;
+}
+
