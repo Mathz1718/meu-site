@@ -7,6 +7,7 @@
     <title>Sobre Mim - Matheus</title>
   </head>
   <body>
+    <div class="scroll-progress"></div>
     <nav>
       <ul>
         <li><a href="#sobre">Biografia</a></li>
@@ -29,7 +30,7 @@
       </div>
     </header>
 
-    <section id="sobre">
+    <section id="sobre" class="parallax-section">
       <h2>Sobre mim</h2>
       <p>
         Tenho 20 anos e sou estudante de Análise e Desenvolvimento de Sistemas
@@ -54,7 +55,7 @@
       </p>
     </section>
 
-    <section id="formacao">
+    <section id="formacao" class="parallax-section">
       <h2>Formação Acadêmica</h2>
       <p>
         🎓 Cursando Análise e Desenvolvimento de Sistemas (ADS) na Estácio
@@ -62,14 +63,24 @@
       </p>
     </section>
 
-    <section id="projetos">
+    <section id="projetos" class="parallax-section">
       <h2>Projetos</h2>
       <div class="projeto">
-        <h3>📱 Desenvolvimento de App no Android Studio</h3>
+        <h3>Site de Futebol</h3>
         <p>
-          Participei do desenvolvimento de um aplicativo simples no Android
-          Studio, onde pude aprender sobre lógica de programação aplicada a
-          mobile e a importância da interface amigável para o usuário.
+          <p>
+            Eu e meu amigo desenvolvemos um site sobre notícias de futebol, com uma aba de uma notícia destacada com informações sobre o projeto. Outra aba com notícias "menos irrelevantes", feito com HTML, CSS JavaScript e PHP para as notícias dinâmicas.
+          </p>
+
+          <p>Fiquei com a parte do HTML e CSS, com o design inspirado no OneFootball</p>
+          <p>
+            <a href="https://github.com/Mathz1718/Linha-de-Fundo" target="_blank" rel="noopener">Ver repositório</a>
+          </p>
+          <ul>
+            <li>Home com destaques das partidas</li>
+            <li>Notícias dinâmicas</li>
+            <li>Aba especialmente para a equipe do projeto</li>
+          </ul>
         </p>
       </div>
       <div class="projeto">
@@ -81,24 +92,24 @@
       </div>
     </section>
 
-    <section id="habilidades">
+    <section id="habilidades" class="parallax-section">
       <h2>Habilidades</h2>
       <div class="skill">
         <p>Python</p>
         <div class="bar">
-          <div class="bar-fill" style="width: 20%">20%</div>
+          <div class="bar-fill" style="width: 30%">30%</div>
         </div>
       </div>
       <div class="skill">
         <p>HTML</p>
         <div class="bar">
-          <div class="bar-fill" style="width: 55%">55%</div>
+          <div class="bar-fill" style="width: 65%">65%</div>
         </div>
       </div>
       <div class="skill">
         <p>CSS</p>
         <div class="bar">
-          <div class="bar-fill" style="width: 45%">45%</div>
+          <div class="bar-fill" style="width: 65%">65%</div>
         </div>
       </div>
     </section>
@@ -116,5 +127,6 @@
     <footer>
       <p>&copy; 2025 Matheus Morais. Todos os direitos reservados.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
